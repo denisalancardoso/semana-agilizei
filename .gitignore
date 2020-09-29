@@ -1,0 +1,18 @@
+# node modules
+node_modules/
+
+# relatorios mocha
+mochawesome-report
+
+# Relatorios cucumber
+cypress/reports/index.html
+cypress/reports/index.html.json
+cypress/reports/cucumber_report.json/**
+
+# Videos
+cypress/videos
+
+# outros
+cypress-essencial-mindmap.png
+.DS_Store
+.vscode
