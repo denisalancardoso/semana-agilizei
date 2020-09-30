@@ -47,4 +47,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          folder: cypress\reports
+          folder: cypress/reports
