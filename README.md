@@ -10,10 +10,14 @@ O projeto consiste na automação de testes de interface de um [site](http://dem
 ### Setup 🛠️
 Primeiramente, é necessário instalar o [Node.js](https://nodejs.org/en/download/)
 
+Comando para iniciarmos um projeto node do npm, para não precisarmos responder algumas perguntas do projeto:
 
+`npm init --yes`
+
+Para este projeto foi utilizado a versão '4.10.0' do Cypress.io
 Para inicializar o projeto, basta digitar no terminal (dentro da pasta do projeto):
 
-`npm install`
+`npm install -D cypress@4.10.0`
 
 Após, para rodar os testes, digitar no terminal:
 
