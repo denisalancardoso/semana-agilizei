@@ -17,9 +17,9 @@ Para inicializar o projeto, basta digitar no terminal (dentro da pasta do projet
 
 Após, para rodar os testes, digitar no terminal:
 
-Execução dos testes com navegador -> `npm run cy:open` ou `npx cypress open`
+`npm run cy:open` -> Execução dos testes com navegador -> 
 
-Execução dos testes sem navegador (modo headless) -> `npm run cy:run` ou `npx cypress run`
+`npm run cy:run` -> Execução dos testes sem navegador (modo headless)
 
 ### Execução com Cucumber
 Implementação do framework Cucumber. 
@@ -36,6 +36,7 @@ Utilizado dois reports generators:
 #### Gerando relatório com Mochawesome:
 
 `npm run report:merge` -> Gera os dados em um arquivo 'full_report.json'
+
 `npm run report:mocha` -> Converte o arquivo 'full_report.json' para HTML
 
 #### Gerando relatório com Cucumber HTML Reports:
